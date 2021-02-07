@@ -1,0 +1,13 @@
+.section__title {
+  background-color: #000;
+  color: white;
+  font-size: 48px;
+  line-height: 50px;
+  font-family: 'PT Serif', serif;
+  padding: 18px 15px;
+  text-align: center;
+}
+
+.border-top {
+  border-top: 1px solid white;
+}

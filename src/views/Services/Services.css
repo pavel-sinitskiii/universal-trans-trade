@@ -1,0 +1,99 @@
+.services {
+  margin: 0 auto;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 
+  50%, #eeeeee 100%);
+  padding-bottom: 30px;
+  
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+.services__item-top {
+  width: 620px;
+  height: 230px;
+  text-align: left ;
+  filter: grayscale(0.7);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.services__item-top:hover {
+  filter: grayscale(0);
+}
+
+.services__item-bottom {
+  width: 305px;
+  height: 230px;
+  margin-top: 10px;
+  text-align: left ;
+  filter: grayscale(0.7);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.services__item-bottom:hover {
+  filter: grayscale(0);
+}
+
+.services__item-text {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 10px 0px;
+  color: rgb(201, 201, 201);
+  margin-top: 150px;
+  background: rgba(0, 0, 0, 0.5); 
+  
+}
+
+.services__item-title {
+  font-size: 19px;
+  line-height: 24px;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px 10px 22px 10px;
+}
+
+.bg__item-1 {
+  background-image: url(../../img/list-img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.bg__item-2 {
+  background-image: url(../../img/list-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.bg__item-3 {
+  background-image: url(../../img/list-img3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.bg__item-4 {
+  background-image: url(../../img/list-img4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.bg__item-5 {
+  background-image: url(../../img/list-img5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.bg__item-6 {
+  background-image: url(../../img/list-img6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;background-size: cover;
+}

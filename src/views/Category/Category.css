@@ -1,0 +1,24 @@
+.categories__item {
+  text-align: center;
+  margin: 10px;
+}
+
+.categories__img {
+  width: 180px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.categories__item-title {
+  padding: 0px 0px 30px 0px;
+  color: #888888;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.categories__link {
+  background-color: #c4c4c4;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 48px;
+}

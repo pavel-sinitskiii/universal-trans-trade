@@ -1,0 +1,31 @@
+.park__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.park__img {
+  margin: 30px;
+}
+
+.park__item-img {
+  width: 120px;
+}
+
+.park__info {
+  width: 420px;
+  padding: 10px;
+}
+
+.park__info-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.park__info-text {
+  font-size: 14px;
+  line-height: 20px;
+}

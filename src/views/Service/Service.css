@@ -1,0 +1,31 @@
+.services__item-top {
+  width: 620px;
+  height: 230px;
+  text-align: left ;
+  filter: grayscale(0.7);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.services__item-top:hover {
+  filter: grayscale(0);
+}
+
+.services__item-text {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 10px 0px;
+  color: rgb(201, 201, 201);
+  margin-top: 150px;
+  background: rgba(0, 0, 0, 0.5); 
+  
+}
+
+.services__item-title {
+  font-size: 19px;
+  line-height: 24px;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px 10px 22px 10px;
+}

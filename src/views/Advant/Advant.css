@@ -1,0 +1,19 @@
+.advanteges__item {
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.advanteges__item-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 15px 10px;
+  text-align: center;
+}
+
+.advanteges__item-text {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color:#c4c4c4;
+}
