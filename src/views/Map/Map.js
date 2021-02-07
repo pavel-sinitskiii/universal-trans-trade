@@ -1,8 +1,8 @@
 import "./Map.css";
 
 const Map = () => (
-  <section class="map">
-    <div class="wrap__map">
+  <section className="map">
+    <div className="wrap__map">
       <script
         type="text/javascript"
         charset="utf-8"

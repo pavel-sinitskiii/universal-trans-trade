@@ -1,31 +1,31 @@
 import "./Modal.css";
 
 const Modal = () => (
-  <div class="modal">
-    <div class="modal__dialog">
-      <div class="modal__header">
-        <h3 class="modal__title">Личный Кабинет</h3>
-        <button type="reset" form="form" class="close">
+  <div className="modal">
+    <div className="modal__dialog">
+      <div className="modal__header">
+        <h3 className="modal__title">Личный Кабинет</h3>
+        <button type="reset" form="form" className="close">
           &times;
         </button>
       </div>
-      <div class="modal__body">
+      <div className="modal__body">
         <form action="account.html" target="_blank" id="form">
           <input
-            class="modal__body-item "
+            className="modal__body-item "
             type="text"
             name="login"
             placeholder="Логин:"
             required
           />
           <input
-            class="modal__body-item "
+            className="modal__body-item "
             type="password"
             name="password"
             placeholder="Пароль:"
             required
           />
-          <button autofocus class="note__btn-modal">
+          <button autofocus className="note__btn-modal">
             Войти
           </button>
         </form>

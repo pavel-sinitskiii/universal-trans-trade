@@ -20,11 +20,11 @@ const menuItems = [
 ];
 
 const Menu = () => (
-  <nav class="menu__head">
-    <ul class="menu__head-list">
+  <nav className="menu__head">
+    <ul className="menu__head-list">
       {menuItems.map((item, index) => (
-        <li class="menu__head-list__item" key={index}>
-          <a href={item.link} class="menu__head-list__link">
+        <li className="menu__head-list__item" key={index}>
+          <a href={item.link} className="menu__head-list__link">
             {item.text}
           </a>
         </li>

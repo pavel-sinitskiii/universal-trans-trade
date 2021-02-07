@@ -31,14 +31,14 @@ const contact = [
 ];
 
 const Contacts = () => (
-  <section class="contacts">
+  <section className="contacts">
     <Title text="Контакты" />
-    <div class="container">
-      <div class="contacts__text">
+    <div className="container">
+      <div className="contacts__text">
         <h3>UniversalTransTrade в Москве:</h3>
       </div>
 
-      <div class="contacts__items">
+      <div className="contacts__items">
         {contact.map((contact, index) => (
           <Contact
             image={contact.image}

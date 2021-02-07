@@ -1,0 +1,10 @@
+.account__title {
+  height: 70px;
+  font-size: 26px;
+  line-height: 28px;
+  padding: 15px 20px;
+  text-align: center;
+  color: white;
+  background: black;
+  border-top: 1px solid white;
+}

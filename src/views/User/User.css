@@ -1,0 +1,24 @@
+.account {
+  padding-bottom: 100px;
+  width: 1010px;
+  margin-left:auto ;
+}
+
+
+
+
+.account-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.account__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+

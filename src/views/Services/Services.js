@@ -37,10 +37,10 @@ const services = [
 ];
 
 const Services = () => (
-  <section class="services">
+  <section className="services">
     <Title text="Наши услуги" />
-    <div class="container">
-      <div class="services__items">
+    <div className="container">
+      <div className="services__items">
         {services.map((service, index) => (
           <Service
             title={service.title}
