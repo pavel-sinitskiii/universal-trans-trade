@@ -1,0 +1,13 @@
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.wrap__map {
+  background-color: black;
+}
+
+.wrap__map ymaps {
+  opacity: 0.9;
+}

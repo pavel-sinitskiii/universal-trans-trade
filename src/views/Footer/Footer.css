@@ -1,0 +1,76 @@
+
+  .footer {
+    background: black;
+    width: 100%;
+    border-top: 1px solid white;
+  }
+  
+  .footer__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .footer__contacts {
+    display: flex;
+    align-items: center;
+  }
+  .footer__contacts-info {
+    color: rgb(238, 235, 235);;
+  }
+  
+  .footer__contacts-info__phone {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .footer__contacts-info__address {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .footer__menu nav {
+    background: #000;
+  }
+  
+  .menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .menu-item {
+    width: 200px;
+    position: relative;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  
+  .menu__item-link__footer {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    display: block;
+    text-align: center;
+    transition: all .3s;
+  }
+  
+  .menu__item-link__footer:hover {
+    color:  #cc2132;
+  }
+  
+  .copy {
+    font-size: 12px;
+    color: #efefee ;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 10px;
+  }
+  
+  .w-100 {
+    width: 100px;
+  }
+  
