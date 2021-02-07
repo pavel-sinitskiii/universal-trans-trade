@@ -1,35 +1,38 @@
-import "./Sidebar.css";
-import SidebarItem from "../SidebarItem/SidebarItem";
+import './Sidebar.css';
 
-const sidebar = [
+import SidebarItem from '../SidebarItem/SidebarItem';
+
+const sidebarItems = [
   {
-    title: "Профиль",
+    title: 'Профиль',
+    href: '/user',
   },
   {
-    title: "Оформить Заявку",
+    title: 'Оформить Заявку',
+    href: '/request',
   },
   {
-    title: "Отказаться",
+    title: 'Отказаться',
   },
   {
-    title: "Состояние Счёта",
+    title: 'Состояние Счёта',
   },
   {
-    title: "Количество Заявок",
+    title: 'Количество Заявок',
   },
   {
-    title: "Лицензионный договор",
+    title: 'Лицензионный договор',
   },
   {
-    title: "Перейти на главную страницу",
+    title: 'Перейти на главную страницу',
   },
 ];
 
-const Sidebar = () => (
-  <div class="sidebar">
-    <div class="sidebar__items">
-      {sidebar.map((sidebar, index) => (
-        <SidebarItem title={sidebar.title} key={index} />
+const Sidebar = ({matchUrl}) => (
+  <div class='sidebar'>
+    <div class='sidebar__items'>
+      {sidebarItems.map((item, index) => (
+        <SidebarItem title={item.title} href={`${matchUrl}${item.href}`} key={index} />
       ))}
     </div>
   </div>

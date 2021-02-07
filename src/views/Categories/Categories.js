@@ -38,7 +38,7 @@ const categories = [
 ];
 
 const Categories = () => (
-  <section className="categories">
+  <section className="categories" id="categories">
     <Title text="Класс Автомобилей" />
     <div className="container">
       <div className="categories__items">

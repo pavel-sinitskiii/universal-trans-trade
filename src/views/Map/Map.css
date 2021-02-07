@@ -6,6 +6,8 @@
 }
 .wrap__map {
   background-color: black;
+  height: 450px;
+  width: 100%;
 }
 
 .wrap__map ymaps {

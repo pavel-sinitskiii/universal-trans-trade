@@ -1,32 +1,34 @@
-import "./Menu.css";
+import './Menu.css';
+
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const menuItems = [
   {
-    text: "О нас",
-    link: "#",
+    text: 'Услуги',
+    href: '#services'
   },
   {
-    text: "Услуги",
-    link: "#",
+    text: 'Классы Автомобилей',
+    href: '#categories'
   },
   {
-    text: "Цены",
-    link: "#",
+    text: 'Преимущества',
+    href: '#advantages',
   },
   {
-    text: "Контакты",
-    link: "#",
+    text: 'Контакты',
+    href: '#сontacts',
   },
 ];
 
 const Menu = () => (
-  <nav className="menu__head">
-    <ul className="menu__head-list">
+  <nav className='menu__head'>
+    <ul className='menu__head-list'>
       {menuItems.map((item, index) => (
-        <li className="menu__head-list__item" key={index}>
-          <a href={item.link} className="menu__head-list__link">
+        <li className='menu__head-list__item' key={index}>
+          <AnchorLink href={item.href} className='menu__head-list__link'>
             {item.text}
-          </a>
+          </AnchorLink>
         </li>
       ))}
     </ul>

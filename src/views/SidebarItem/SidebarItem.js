@@ -1,9 +1,11 @@
 import "./SidebarItem.css";
 
+import { Link } from 'react-router-dom';
+
 const SidebarItem = (props) => (
-  <a href="account.html" class="sidebar__item ">
+  <Link to={props.href} class="sidebar__item ">
     {props.title}
-  </a>
+  </Link>
 );
 
 export default SidebarItem;

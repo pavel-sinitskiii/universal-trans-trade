@@ -1,35 +1,43 @@
-import "./Header.css";
+import './Header.css';
 
-import Container from "../Container/Container";
+import { useAuth } from '../../contexts/AuthContext';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 
+import Container from '../Container/Container';
+import Menu from '../Menu/Menu';
 
+const Header = ({ onClick }) => {
+  const { currentUser: user } = useAuth();
 
-const Header = () => (
-  <header className="header">
-    <Container>
-      <div className="header__items">
-        <div className="logo">
-          <a href="index.html" className="header__left">
-            UNIVERSALTRANSTRADE
-          </a>
+  return (
+    <header className='header' id='header'>
+      <Container>
+        <div className='header__items'>
+          <div className='logo'>
+            <Link to='/'>
+              <div className='header__left'>UNIVERSALTRANSTRADE</div>
+            </Link>
+          </div>
+          <div className='header__right'>
+            <div className='contact'>
+              <p className='contact'>+7 (999) 999-99-99</p>
+            </div>
+            <div className='contact'>
+              <p>г.Москва, Перовский пр-д, д.54</p>
+            </div>
+            {user ? (
+              <Link to='/account'>
+                <div className='btn'>Личный кабинет</div>
+              </Link>
+            ) : null}
+            <div className='btn' onClick={onClick}>
+              {user ? 'Выйти' : 'Войти'}
+            </div>
+          </div>
         </div>
-        <div className="header__right">
-          <div className="contact">
-            <p className="contact">+7 (999) 999-99-99</p>
-          </div>
-          <div className="contact">
-            <p>г.Москва, Перовский пр-д, д.54</p>
-          </div>
-          <div className="btn">
-            <a href="#" className="btn__link" id="cart-btn">
-              Личный кабинет
-            </a>
-          </div>
-        </div>
-      </div>
-    </Container>
-  
-  </header>
-);
+      </Container>
+    </header>
+  );
+};
 
 export default Header;
