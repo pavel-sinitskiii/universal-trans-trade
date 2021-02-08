@@ -8,7 +8,7 @@ const menuItems = [
     href: '#services'
   },
   {
-    text: 'Классы Автомобилей',
+    text: 'Автомобили',
     href: '#categories'
   },
   {

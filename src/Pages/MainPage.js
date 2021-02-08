@@ -6,6 +6,7 @@ import Advanteges from '../views/Advanteges/Advvanteges';
 import Park from '../views/Park/Park';
 import Contacts from '../views/Contacts/Contacts';
 import Map from '../views/Map/Map';
+import Container from '../views/Container/Container';
 
 const MainPage = () => (
   <>
@@ -16,7 +17,9 @@ const MainPage = () => (
     <Advanteges />
     <Park />
     <Contacts />
+    <Container>
     <Map />
+    </Container>
   </>
 );
 

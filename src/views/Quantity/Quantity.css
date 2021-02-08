@@ -1,0 +1,51 @@
+.profile__table {
+  border: 2px solid black;
+ 
+}
+
+.profile__table-items th {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.profile__table-item {
+  border: 1px solid grey;
+  padding: 10px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.request__table-item {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 5px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.request-input {
+  max-width: 180px;
+  text-align: center;
+}
+
+.profile__btn {
+  background-color: rgb(150, 150, 150);
+  color: whitesmoke;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 13px 48px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.profile__btn:hover {
+  background-color: rgb(1, 150, 1);
+  color: white;
+}
+
+.balance__table-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}

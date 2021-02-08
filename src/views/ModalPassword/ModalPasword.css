@@ -1,0 +1,102 @@
+
+.modal__input-title {
+  font-size: 16px;
+  color: rgb(146, 146, 146);
+  padding: 10px;
+}
+
+.modal__password {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  display: none;
+}
+
+.is-open {
+ display: flex;
+} 
+.modal__password-dialog {
+ max-width: 780px;
+ width: 95%;
+ border-radius: 5px;
+ margin: auto;
+ padding: 40px 45px;
+ border: 2px solid #fdfdfd;
+ background: black;
+}
+
+.modal__password-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.modal__password-title {
+ margin: 0;
+ color: whitesmoke;
+  font-size: 28px;
+  
+}
+.close {
+ font-size: 46px;
+ border: none;
+ background-color: transparent;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  bottom: 30px;
+  left: 15px;
+} 
+
+.modal__password-body {
+  margin-bottom: 30px;
+ }
+
+input::-webkit-input-placeholder {
+   
+    color: white; 
+}
+input::-moz-placeholder {
+  color: gold; 
+}
+
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+.modal__password-item {
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 20px;
+ width: 70%;
+ color: white;
+ border: 2px solid #f8f8f8;
+ border-radius: 5px;
+ padding: 10px;
+ margin-bottom: 20px;
+ background: rgba(0,0,0,0.5);
+ 
+}
+
+.note__btn-modal {
+  background-color: #a87d3b;
+  color: whitesmoke;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 13px 48px;
+  border-radius: 5px;
+  margin-right: 100px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.note__btn-modal:hover {
+  background-color: white;
+  color: black;
+}

@@ -13,12 +13,15 @@ const sidebarItems = [
   },
   {
     title: 'Отказаться',
+    href: '/refuse',
   },
   {
     title: 'Состояние Счёта',
+    href: '/balance',
   },
   {
     title: 'Количество Заявок',
+    href: '/quantity',
   },
   {
     title: 'Лицензионный договор',

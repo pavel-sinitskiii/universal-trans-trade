@@ -10,7 +10,11 @@ import Container from '../views/Container/Container';
 import Sidebar from '../views/Sidebar/Sidebar';
 import AccountPanel from '../views/AccountPanel/AccountPanel';
 import Request from '../views/Request/Request';
-import User from '../views/User/User';
+import Refuse from '../views/Refuse/Refuse'
+import Balance from '../views/Balance/Balance'
+import Quantity from '../views/Quantity/Quantity'
+
+import UserInfo from '../views/UserInfo/UserInfo'
 
 const Account = () => {
   const match = useRouteMatch();
@@ -24,12 +28,27 @@ const Account = () => {
           <Switch>
             <Route path={`${match.path}/user`}>
               <AccountPanel title='Профиль'>
-                <User />
+                <UserInfo />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/request`}>
-              <AccountPanel title='Оформить заявки'>
+              <AccountPanel title='Оформить заявку'>
                 <Request />
+              </AccountPanel>
+            </Route>
+            <Route path={`${match.path}/refuse`}>
+              <AccountPanel title='Отказ от услуги'>
+                <Refuse />
+              </AccountPanel>
+            </Route>
+            <Route path={`${match.path}/balance`}>
+              <AccountPanel title='Отказ от услуги'>
+                <Balance />
+              </AccountPanel>
+            </Route>
+            <Route path={`${match.path}/quantity`}>
+              <AccountPanel title='Отказ от услуги'>
+                <Quantity />
               </AccountPanel>
             </Route>
           </Switch>

@@ -1,0 +1,32 @@
+
+.balance__table {
+  border: 1px solid black;
+ 
+}
+
+.profile__table-items th {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.profile__table-item {
+  border: 1px solid grey;
+  padding: 5px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+
+.balance__table-item {
+  border: 1px solid grey;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  min-width: 200px;
+}
+
+.balance__table-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}

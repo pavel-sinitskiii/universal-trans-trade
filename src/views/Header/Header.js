@@ -26,7 +26,7 @@ const Header = ({ onClick }) => {
               <p>г.Москва, Перовский пр-д, д.54</p>
             </div>
             {user ? (
-              <Link to='/account'>
+              <Link to='/account/user'>
                 <div className='btn'>Личный кабинет</div>
               </Link>
             ) : null}

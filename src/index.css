@@ -128,6 +128,9 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 /* change colours to suit your needs */
@@ -174,3 +177,5 @@ input,
 select {
   vertical-align: middle;
 }
+
+

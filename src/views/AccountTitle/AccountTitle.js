@@ -1,7 +1,7 @@
 import "./AccountTitle.css";
 
 const AccountTitle = () => (
-  <div class="account__title">
+  <div className="account__title">
     <h2>Личный кабинет пользователя</h2>
   </div>
 );
