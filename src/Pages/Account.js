@@ -42,12 +42,12 @@ const Account = () => {
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/balance`}>
-              <AccountPanel title='Отказ от услуги'>
+              <AccountPanel title='Состояние счёта'>
                 <Balance />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/quantity`}>
-              <AccountPanel title='Отказ от услуги'>
+              <AccountPanel title='Количество заявок'>
                 <Quantity />
               </AccountPanel>
             </Route>

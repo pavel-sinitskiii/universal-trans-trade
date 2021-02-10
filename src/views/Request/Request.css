@@ -42,3 +42,7 @@
   background-color: rgb(1, 150, 1);
   color: white;
 }
+
+textarea {
+  width: 100%;
+}

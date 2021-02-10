@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
   margin: 10px;
 }
 .wrap__map {
@@ -11,8 +10,18 @@
   width: 100%;
 }
 
-
-
 .wrap__map ymaps {
   opacity: 0.9;
+}
+
+@media (max-width: 830px) {
+  .wrap__map {
+    height: 300px;
+  }
+}
+
+@media (max-width:450px) {
+  .wrap__map {
+    height: 250px;
+  }
 }

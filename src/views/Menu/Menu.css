@@ -45,4 +45,35 @@
   .menu__head-list__item:last-child {
     border-right: 1px solid #c4c4c4;
   }
+
+  @media (max-width: 1280px) {
+    .menu__head-list__item {
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 830px) {
+    .menu__head-list__item {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 629px) {
+    .menu__head {
+      border-bottom: 1px solid #c4c4c4;
+    }
+
+    .menu__head-list {
+      display: block;
+    }
+  
+    .menu__head-list__item {
+      width: 100%;
+      border-top: 1px solid #c4c4c4;
+    }
+  
+    .menu__head-list__link{
+     padding: 10px 10px;
+    }
+  }  
   

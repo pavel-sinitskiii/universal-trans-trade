@@ -10,9 +10,9 @@
 }
 
 .categories__item-title {
-  padding: 0px 0px 30px 0px;
+ margin-bottom: 40px;
   color: #888888;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 24px;
 }
 
@@ -21,4 +21,39 @@
   color: #ffffff;
   text-decoration: none;
   padding: 13px 48px;
+}
+
+@media (max-width: 1055px) {
+
+  .categories__img {
+    max-width: 160px;
+    height: 180px;
+    object-fit: contain;
+  }
+  
+  .categories__item-title {
+    color: #888888;
+    font-size: 22px;
+    
+}
+}
+@media (max-width: 439px) {
+  .categories__img {
+    max-width: 140px;
+    height: 140px;
+    object-fit: contain;
+  }
+  
+  .categories__item-title {
+    color: #888888;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .categories__link {
+    background-color: #c4c4c4;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 38px;
+  }
 }

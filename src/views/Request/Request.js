@@ -32,75 +32,75 @@ const Request = () => (
       <tr className="profile__table-items">
         <th className="profile__table-item">1</th>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="16" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="15" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <input type="time" />
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
           <input type="time" />
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <input type="time" />
+        </td>
+        <td className="profile__table-item ">
+          <textarea name="" id="" rows="2"></textarea>
         </td>
       </tr>
 
       <tr className="profile__table-items">
         <th className="profile__table-item">2</th>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="16" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="15" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <input type="time" />
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
           <input type="time" />
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <input type="time" />
+        </td>
+        <td className="profile__table-item ">
+          <textarea name="" id="" rows="2"></textarea>
         </td>
       </tr>
 
       <tr className="profile__table-items">
         <th className="profile__table-item">3</th>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="16" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="15" rows="2"></textarea>
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <input type="time" />
+          <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
           <input type="time" />
         </td>
         <td className="profile__table-item ">
-          <textarea name="" id="" cols="13" rows="2"></textarea>
+          <input type="time" />
+        </td>
+        <td className="profile__table-item ">
+          <textarea name="" id="" rows="2"></textarea>
         </td>
       </tr>
     </table>

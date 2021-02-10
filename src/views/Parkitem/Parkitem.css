@@ -29,3 +29,82 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (max-width: 1250px) {
+  .park__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+  }
+  
+  .park__img {
+    margin: 15px;
+  }
+  
+  .park__item-img {
+    max-width: 120px;
+  }
+  
+  .park__info {
+    max-width: 350px;
+    padding: 5px;
+  }
+  
+  .park__info-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .park__info-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 1055px) {
+.park__item-img {
+  max-width: 120px;
+}
+
+.park__info {
+  max-width: 300px;
+  padding: 5px;
+}
+
+}
+
+@media (max-width: 950px) {
+  .park__item {
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .park__info {
+    max-width: 400px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .park__item {
+    margin: 0 auto;
+  }
+  .park__item-img {
+    max-width: 150px;
+  }
+  .park__info {
+    max-width: 400px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 750px) {
+  .park__info {
+    max-width: 300px;
+    padding: 5px;
+  }
+}

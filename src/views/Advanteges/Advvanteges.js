@@ -30,7 +30,7 @@ const advanteges = [
       'ваши интересы будут соблюдены, а ваша бухгалтерия получит все необходимые документы, оформленные по всем правилам.',
   },
   {
-    title: 'УНКТУАЛЬНОСТЬ И ОТВЕТСТВЕНОСТЬ',
+    title: 'ПУНКТУАЛЬНОСТЬ И ОТВЕТСТВЕНОСТЬ',
     description:
       'можете не сомневаться, вы получите выбранный вами автомобиль на прокат в оговоренное время.',
   },
@@ -39,7 +39,7 @@ const advanteges = [
 const Advanteges = () => (
   <section className='advanteges' id='advantages'>
     <Title text='Преимущества' />
-    <div className='wrap'>
+    <div className='border-top'>
       <div className='container'>
         <div className='advanteges__items'>
           {advanteges.map((advant, index) => (

@@ -100,3 +100,79 @@ input:invalid:not(:placeholder-shown) {
   background-color: white;
   color: black;
 }
+
+
+@media (max-width:600px) {
+  .modal__password-header {
+    margin-bottom: 20px;
+  }
+  
+  .modal__password-title {
+    font-size: 24px;
+    
+  }
+  .close {
+   font-size: 40px;
+   left: 20px;
+  } 
+  
+  .modal__password-body {
+    margin-bottom: 0px;
+   }
+  
+  .modal__password-item {
+   font-size: 14px;
+   line-height: 16px;
+   width: 60%;
+   padding: 10px;
+   margin-bottom: 15px;
+  }
+  
+  .note__btn-modal {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 12px 40px;
+    margin-top: 15px;
+  }
+  
+  }
+  
+  @media (max-width: 530px) {
+    .modal__password-item {
+      width: 70%;
+     }
+  }
+  
+  @media (max-width: 470px) {
+    .modal__password-title {
+      font-size: 22px;
+      
+    }
+    .close {
+     font-size: 35px;
+     left: 25px;
+    } 
+    
+    .modal__password-item {
+     width: 80%;
+    }
+    .note__btn-modal {
+      padding: 9px 35px;
+    }
+    }
+  
+    @media (max-width: 375px) {
+      .modal__password-title {
+        font-size: 20px;
+    }
+  
+    .close {
+      font-size: 35px;
+      left: 35px;
+  }
+  }
+  
+  .modal__password-item {
+    width: 90%;
+  }
+  

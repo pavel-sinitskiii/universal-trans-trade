@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className='footer__contacts'>
             <div className='footer__contacts-info'>
-              <p className='footer__contacts-info__phone'>+7 (999) 999-99-99</p>
+              <p className='footer__contacts-info__phone'>+7 (495) 323 04 41</p>
               <p className='footer__contacts-info__address'>
                 г.Москва, Перовский проезд, д.54
               </p>

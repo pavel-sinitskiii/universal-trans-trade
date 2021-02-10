@@ -15,9 +15,10 @@
   .footer__contacts {
     display: flex;
     align-items: center;
+    text-align: center;
   }
   .footer__contacts-info {
-    color: rgb(238, 235, 235);;
+    color: rgb(238, 235, 235);
   }
   
   .footer__contacts-info__phone {
@@ -38,7 +39,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
   }
   
   .menu-item {
@@ -74,3 +74,11 @@
     width: 100px;
   }
   
+  @media (max-width: 665px) {
+    .footer__items {
+      padding-bottom: 0px;
+    }
+    .slider {
+      min-height: 300px;
+    }
+  }
