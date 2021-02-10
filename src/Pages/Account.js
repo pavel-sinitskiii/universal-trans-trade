@@ -3,20 +3,29 @@ import {
   Switch,
   Route,
   useRouteMatch,
+  useHistory
 } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 
 import AccountTitle from '../views/AccountTitle/AccountTitle';
 import Container from '../views/Container/Container';
 import Sidebar from '../views/Sidebar/Sidebar';
 import AccountPanel from '../views/AccountPanel/AccountPanel';
 import Request from '../views/Request/Request';
-import Refuse from '../views/Refuse/Refuse'
-import Balance from '../views/Balance/Balance'
-import Quantity from '../views/Quantity/Quantity'
+import Refuse from '../views/Refuse/Refuse';
+import Balance from '../views/Balance/Balance';
+import Quantity from '../views/Quantity/Quantity';
 
-import UserInfo from '../views/UserInfo/UserInfo'
+import UserInfo from '../views/UserInfo/UserInfo';
 
-const Account = () => {
+const Account = ({ openChangePasswordModal, closeModal }) => {
+  const { currentUser: user } = useAuth();
+  const history = useHistory();
+
+  if (!user) {
+    history.push('/');
+  }
+
   const match = useRouteMatch();
 
   return (
@@ -28,7 +37,7 @@ const Account = () => {
           <Switch>
             <Route path={`${match.path}/user`}>
               <AccountPanel title='Профиль'>
-                <UserInfo />
+                <UserInfo openChangePasswordModal={openChangePasswordModal} />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/request`}>

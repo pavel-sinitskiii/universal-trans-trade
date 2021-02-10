@@ -7,6 +7,7 @@ const Modal = ({
   modalError,
   setModalError,
   modalLoading,
+  toggleIsRegistration,
 }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -69,6 +70,7 @@ const Modal = ({
           >
             Войти
           </button>
+          <p className='modal__registration-link' onClick={toggleIsRegistration}>Создать аккаунт</p>
         </div>
       </div>
     </div>
