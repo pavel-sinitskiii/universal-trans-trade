@@ -97,6 +97,18 @@ input:invalid:not(:placeholder-shown) {
   color: red;
 }
 
+.modal__login-link {
+    padding-left: 5px;
+    padding-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+  
+  .modal__login-link:hover {
+    color: rgb(1, 202, 1);
+  }
+
+
 @media (max-width: 600px) {
   .modal__reg-header {
     margin-bottom: 20px;
@@ -128,10 +140,6 @@ input:invalid:not(:placeholder-shown) {
     padding: 12px 40px;
     margin-top: 15px;
   }
-}
-
-.modal__login-link {
-  color: white;
 }
 
 @media (max-width: 530px) {

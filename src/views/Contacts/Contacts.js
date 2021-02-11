@@ -16,7 +16,7 @@ const contact = [
   {
     image: img2,
     title: 'Телефон :',
-    text: '+7 (495) 323 04 41',
+    text: '+7 (495) 999 99 99',
   },
   {
     image: img3,

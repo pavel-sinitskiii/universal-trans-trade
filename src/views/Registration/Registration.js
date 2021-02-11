@@ -39,7 +39,7 @@ const Registration = ({
     <div className='modal__reg'>
       <div className='modal__reg-dialog'>
         <div className='modal__reg-header'>
-          <h3 className='modal__reg-itle'>Регистрация</h3>
+          <h3 className='modal__reg-title'>Регистрация</h3>
           <button type='reset' form='form' className='close' onClick={closeModal}>
             &times;
           </button>
@@ -63,7 +63,7 @@ const Registration = ({
             required
             onChange={onPasswordChange}
           />
-          <p className='modal__reg-title'>Подтвердите пароль:</p>
+          <p className='modal__input-title'>Подтвердите пароль:</p>
           <input
             className='modal__reg-item '
             type='password'

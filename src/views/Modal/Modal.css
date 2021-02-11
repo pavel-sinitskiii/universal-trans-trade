@@ -90,6 +90,17 @@ input:invalid:not(:placeholder-shown) {
 .modal__error-text {
   color: red;
 }
+.modal__registration-link {
+  padding-left: 5px;
+  padding-top: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal__registration-link:hover {
+  color: rgb(1, 202, 1);
+}
+
 
 @media (max-width: 600px) {
   .modal__header {
@@ -124,9 +135,6 @@ input:invalid:not(:placeholder-shown) {
   }
 }
 
-.modal__registration-link {
-  color: white;
-}
 
 @media (max-width: 530px) {
   .modal__body-item {

@@ -11,19 +11,19 @@ const Balance = () => (
 
       <tr className="profile__table-items">
         <th className="balance__table-item">Баланс</th>
-        <td className="balance__table-item ">290.000 руб</td>
+        <td className="balance__table-item ">------- руб.</td>
       </tr>
 
       <tr className="profile__table-items">
         <th className="balance__table-item">
           Поступившие платежи в текущем месяце
         </th>
-        <td className="balance__table-item">400.000 руб</td>
+        <td className="balance__table-item">------- руб.</td>
       </tr>
 
       <tr className="profile__table-items">
         <th className="balance__table-item">Расход в текущем месяце</th>
-        <td className="balance__table-item ">110.000 руб</td>
+        <td className="balance__table-item ">------- руб.</td>
       </tr>
     </table>
   </>

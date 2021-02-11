@@ -46,3 +46,10 @@
 textarea {
   width: 100%;
 }
+
+.input__time {
+  text-align: center;
+  margin: 6px;
+  margin-left: 10px;
+  width: 80%;
+}

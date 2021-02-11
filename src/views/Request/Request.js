@@ -44,10 +44,10 @@ const Request = () => (
           <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
           <textarea name="" id="" rows="2"></textarea>
@@ -69,10 +69,10 @@ const Request = () => (
           <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
           <textarea name="" id="" rows="2"></textarea>
@@ -94,10 +94,10 @@ const Request = () => (
           <textarea name="" id="" rows="2"></textarea>
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
-          <input type="time" />
+          <input className="input__time" type="time" />
         </td>
         <td className="profile__table-item ">
           <textarea name="" id="" rows="2"></textarea>

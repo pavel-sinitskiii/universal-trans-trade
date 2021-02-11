@@ -46,7 +46,13 @@
     border-right: 1px solid #c4c4c4;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1230px) {
+    .menu__head-list__item {
+      width: 250px;
+    }
+  }
+
+  @media (max-width: 1030px) {
     .menu__head-list__item {
       width: 200px;
     }
