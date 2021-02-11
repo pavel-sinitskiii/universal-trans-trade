@@ -18,7 +18,7 @@ import Quantity from '../views/Quantity/Quantity';
 
 import UserInfo from '../views/UserInfo/UserInfo';
 
-const Account = ({ openChangePasswordModal, closeModal }) => {
+const Account = ({ openChangePasswordModal, showConfirmation }) => {
   const { currentUser: user } = useAuth();
   const history = useHistory();
 
@@ -42,12 +42,12 @@ const Account = ({ openChangePasswordModal, closeModal }) => {
             </Route>
             <Route path={`${match.path}/request`}>
               <AccountPanel title='Оформить заявку'>
-                <Request />
+                <Request showConfirmation={showConfirmation} />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/refuse`}>
               <AccountPanel title='Отказ от услуги'>
-                <Refuse />
+                <Refuse showConfirmation={showConfirmation} />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/balance`}>
