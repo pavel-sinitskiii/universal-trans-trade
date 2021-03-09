@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-
 import './Refuse.css';
 
-=======
-import './Refuse.css';
-
->>>>>>> cf08c524171fee5562cd607781cf2b677337cd00
 const Refuse = ({ showConfirmation }) => (
   <>
     <textarea
