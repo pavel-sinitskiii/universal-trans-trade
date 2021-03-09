@@ -14,8 +14,11 @@ import Modal from './views/Modal/Modal';
 import Registration from './views/Registration/Registration';
 import ModalPassword from './views/ModalPassword/ModalPassword';
 import ModalRequest from './views/ModalRequest/ModalRequest';
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cf08c524171fee5562cd607781cf2b677337cd00
 
 import { useAuth } from './contexts/AuthContext';
 
@@ -159,6 +162,7 @@ const App = () => {
               openChangePasswordModal={openChangePasswordModal}
               showConfirmation={showConfirmation}
             />
+<<<<<<< HEAD
           </Route>
           <Route path='/services'>
             <InfoPage
@@ -183,6 +187,8 @@ const App = () => {
               openChangePasswordModal={openChangePasswordModal}
               showConfirmation={showConfirmation}
             />
+=======
+>>>>>>> cf08c524171fee5562cd607781cf2b677337cd00
           </Route>
         </Switch>
         <Footer />
