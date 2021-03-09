@@ -3,20 +3,36 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import MainPage from './pages/MainPage';
 import Account from './pages/Account';
+import InfoPage from './pages/InfoPage'
+import CarPage from './pages/CarPage'
+import AboutUs from './pages/AboutUs'
+import ContactsPage from './pages/ContactsPage'
 
 import Header from './views/Header/Header';
 import Footer from './views/Footer/Footer';
 import Modal from './views/Modal/Modal';
 import Registration from './views/Registration/Registration';
 import ModalPassword from './views/ModalPassword/ModalPassword';
+import ModalRequest from './views/ModalRequest/ModalRequest';
+
+
 
 import { useAuth } from './contexts/AuthContext';
 
 const App = () => {
-  const { currentUser: user, login, logout, signup, updatePassword } = useAuth();
+  const {
+    currentUser: user,
+    login,
+    logout,
+    signup,
+    updatePassword,
+  } = useAuth();
   const [isModalOpened, setIsModalOpened] = useState(false);
   const [isRegistration, setIsRegistration] = useState(false);
   const [isChangePassword, setIsChangePassword] = useState(false);
+  const [isModalConfirmationOpened, setIsModalConfirmationOpened] = useState(
+    false
+  );
   const [modalError, setModalError] = useState('');
   const [modalLoading, setModalLoading] = useState(false);
 
@@ -76,7 +92,7 @@ const App = () => {
     setModalLoading(true);
     const err = await signup(email, password);
 
-    if (err) {  
+    if (err) {
       setModalError('Что-то пошло не так. Попробуйте снова');
     } else {
       closeModal();
@@ -95,7 +111,7 @@ const App = () => {
       setModalError('Введите пароль и подтверждение пароля');
       return;
     }
-    
+
     if (password !== confirmation) {
       setModalError('Подтверждение не совпадает с паролем');
       return;
@@ -111,7 +127,9 @@ const App = () => {
 
     if (err) {
       if (err.code === 'auth/requires-recent-login') {
-        setModalError('Выйдите и зайдите в учетную запись снова. После этого повторите попытку');
+        setModalError(
+          'Выйдите и зайдите в учетную запись снова. После этого повторите попытку'
+        );
       } else {
         setModalError('Что-то пошло не так. Попробуйте снова');
       }
@@ -120,7 +138,15 @@ const App = () => {
     }
 
     setModalLoading(false);
-  }
+  };
+
+  const showConfirmation = () => {
+    setIsModalConfirmationOpened(true);
+  };
+
+  const closeConfirmation = () => {
+    setIsModalConfirmationOpened(false);
+  };
 
   return (
     <>
@@ -129,7 +155,34 @@ const App = () => {
         <Switch>
           <Route path='/' exact component={MainPage} />
           <Route path='/account'>
-            <Account openChangePasswordModal={openChangePasswordModal} />
+            <Account
+              openChangePasswordModal={openChangePasswordModal}
+              showConfirmation={showConfirmation}
+            />
+          </Route>
+          <Route path='/services'>
+            <InfoPage
+              openChangePasswordModal={openChangePasswordModal}
+              showConfirmation={showConfirmation}
+            />
+          </Route>
+          <Route path='/car-park'>
+            <CarPage
+              openChangePasswordModal={openChangePasswordModal}
+              showConfirmation={showConfirmation}
+            />
+          </Route>
+          <Route path='/about-us'>
+            <AboutUs
+              openChangePasswordModal={openChangePasswordModal}
+              showConfirmation={showConfirmation}
+            />
+          </Route>
+          <Route path='/contacts'>
+            <ContactsPage
+              openChangePasswordModal={openChangePasswordModal}
+              showConfirmation={showConfirmation}
+            />
           </Route>
         </Switch>
         <Footer />
@@ -162,6 +215,7 @@ const App = () => {
           />
         )
       ) : null}
+      {isModalConfirmationOpened ? <ModalRequest closeConfirmation={closeConfirmation} /> : null}
     </>
   );
 };

@@ -15,10 +15,11 @@ import Request from '../views/Request/Request';
 import Refuse from '../views/Refuse/Refuse';
 import Balance from '../views/Balance/Balance';
 import Quantity from '../views/Quantity/Quantity';
+import License from '../views/License/License'
 
 import UserInfo from '../views/UserInfo/UserInfo';
 
-const Account = ({ openChangePasswordModal, closeModal }) => {
+const Account = ({ openChangePasswordModal, showConfirmation }) => {
   const { currentUser: user } = useAuth();
   const history = useHistory();
 
@@ -42,12 +43,12 @@ const Account = ({ openChangePasswordModal, closeModal }) => {
             </Route>
             <Route path={`${match.path}/request`}>
               <AccountPanel title='Оформить заявку'>
-                <Request />
+                <Request showConfirmation={showConfirmation} />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/refuse`}>
               <AccountPanel title='Отказ от услуги'>
-                <Refuse />
+                <Refuse showConfirmation={showConfirmation} />
               </AccountPanel>
             </Route>
             <Route path={`${match.path}/balance`}>
@@ -59,7 +60,12 @@ const Account = ({ openChangePasswordModal, closeModal }) => {
               <AccountPanel title='Количество заявок'>
                 <Quantity />
               </AccountPanel>
-            </Route>
+              </Route>
+              <Route path={`${match.path}/license`}>
+              <AccountPanel title='Лицензионный Договор'>
+                <License />
+              </AccountPanel>
+            </Route>      
           </Switch>
         </Router>
       </Container>

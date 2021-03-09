@@ -1,0 +1,102 @@
+.about__desc {
+  margin: 10px;
+}
+
+.about__desc-title {
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  line-height: 24px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.about__desc-text {
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about__desc-list {
+  margin-bottom: 20px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+.about__desc-list-item {
+  padding-bottom: 5px;
+}
+
+.about__partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #000;
+  padding: 20px;
+}
+
+.about__partners-img {
+  margin: 10px;
+  width: 250px;
+  height: 110px;
+}
+
+.about__partners-img1 {
+  background-image: url(../../img/about-img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about__partners-img2 {
+  background-image: url(../../img/about-img2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about__partners-img3 {
+  background-image: url(../../img/about-img3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about__partners-img4 {
+  background-image: url(../../img/about-img4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about__partners-img5 {
+  background-image: url(../../img/about-img5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__partners-img6 {
+  background-image: url(../../img/about-img6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__partners-img7 {
+  background-image: url(../../img/about-img7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__partners-img8 {
+  background-image: url(../../img/about-img8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+

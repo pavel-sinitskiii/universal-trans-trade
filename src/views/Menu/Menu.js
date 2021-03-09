@@ -1,23 +1,24 @@
 import './Menu.css';
 
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const menuItems = [
   {
     text: 'Услуги',
-    href: '#services'
+    to: '/services/services',
   },
   {
     text: 'Автомобили',
-    href: '#categories'
+    to: '/car-park/car-park'
   },
   {
-    text: 'Преимущества',
-    href: '#advantages',
+    text: 'О Компании',
+    to: '/about-us/about-us',
   },
   {
     text: 'Контакты',
-    href: '#сontacts',
+    to: '/contacts/contacts',
   },
 ];
 
@@ -26,9 +27,9 @@ const Menu = () => (
     <ul className='menu__head-list'>
       {menuItems.map((item, index) => (
         <li className='menu__head-list__item' key={index}>
-          <AnchorLink href={item.href} className='menu__head-list__link'>
+          <Link to={item.to} className='menu__head-list__link'>
             {item.text}
-          </AnchorLink>
+          </Link>
         </li>
       ))}
     </ul>

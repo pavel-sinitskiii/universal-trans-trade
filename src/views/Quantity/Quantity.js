@@ -4,7 +4,7 @@ const Quantity = () => (
   <>
     <table className="profile__table">
       <tr className="profile__table-items">
-        <td colspan="6" className="balance__table-title ">
+        <td colspan="8" className="balance__table-title ">
           Статус Заявок{" "}
         </td>
       </tr>
@@ -21,11 +21,15 @@ const Quantity = () => (
           Государственный регистрационный номер транспортного средства
         </th>
         <th className="request__table-item">Время начала оказания услуг</th>
+        <th class="request__table-item">Дата и время приёма заявки</th>
+        <th class="request__table-item">Дата и время отзыва заявки</th>
         <th className="request__table-item">Статус заявки</th>
       </tr>
 
       <tr className="profile__table-items">
         <th className="profile__table-item">1</th>
+        <td className="profile__table-item "></td>
+        <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
@@ -40,10 +44,14 @@ const Quantity = () => (
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
+        <td className="profile__table-item "></td>
+        <td className="profile__table-item "></td>
       </tr>
 
       <tr className="profile__table-items">
         <th className="profile__table-item">3</th>
+        <td className="profile__table-item "></td>
+        <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>
         <td className="profile__table-item "></td>

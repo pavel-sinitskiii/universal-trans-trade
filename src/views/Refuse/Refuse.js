@@ -1,15 +1,16 @@
-import "./Refuse.css";
 
-const Refuse = () => (
+import './Refuse.css';
+
+const Refuse = ({ showConfirmation }) => (
   <>
     <textarea
-      name=""
-      id=""
-      cols="110"
-      rows="10"
-      placeholder="Причина отказа от услуги:"
+      name=''
+      id=''
+      cols='110'
+      rows='10'
+      placeholder='Причина отказа от услуги:'
     ></textarea>
-    <button autofocus className="profile__btn">
+    <button autofocus className='profile__btn' onClick={showConfirmation}>
       Отказаться
     </button>
   </>

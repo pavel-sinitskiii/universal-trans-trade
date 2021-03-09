@@ -1,0 +1,8 @@
+.services__title {
+  font-size: 26px;
+  line-height: 28px;
+  padding: 15px 20px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.99);
+}

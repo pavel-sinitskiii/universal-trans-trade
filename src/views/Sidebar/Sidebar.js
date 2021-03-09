@@ -25,10 +25,9 @@ const sidebarItems = [
   },
   {
     title: 'Лицензионный договор',
+    href: '/license',
   },
-  {
-    title: 'Перейти на главную страницу',
-  },
+
 ];
 
 const Sidebar = ({matchUrl}) => (

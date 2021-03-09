@@ -1,0 +1,112 @@
+.services__pg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.services__items-pg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__description {
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.fz-16 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.fz-18 {
+  font-size: 18px;
+  line-height: 20px;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.categories__items {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.categories__item {
+  text-align: center;
+  margin: 10px;
+}
+.categories__pg-link {
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 35px;
+}
+
+.categories__pg-img {
+  max-width: 150px;
+  height: 200px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.categories__item-title {
+  padding: 0px 0px 30px 0px;
+  color: #888888;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.categories__pg-img1 {
+  background-image: url(../../img/popular-img1.1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.categories__pg-img2 {
+  background-image: url(../../img/popular-img3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.categories__pg-img3 {
+  background-image: url(../../img/popular-img4.1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.categories__pg-img4 {
+  background-image: url(../../img/popular-img5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.categories__pg-img5 {
+  background-image: url(../../img/popular-img6.1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.categories__pg-img6 {
+  background-image: url(../../img/popular-img1.1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

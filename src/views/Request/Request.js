@@ -1,111 +1,111 @@
-import "./Request.css";
+import './Request.css';
 
-const Request = () => (
+const Request = ({ showConfirmation }) => (
   <>
-    <table className="profile__table">
-      <tr className="profile__table-items">
-        <td colspan="8" className="profile__table-item">
-          Период оказания услуг: с <input type="date" /> по{" "}
-          <input type="date" />{" "}
+    <table className='profile__table'>
+      <tr className='profile__table-items'>
+        <td colspan='8' className='profile__table-item'>
+          Период оказания услуг: с <input type='date' /> по{' '}
+          <input type='date' />{' '}
         </td>
       </tr>
 
-      <tr className="profile__table-items">
-        <th className="request__table-item">№ п/п</th>
-        <th className="request__table-item">
+      <tr className='profile__table-items'>
+        <th className='request__table-item'>№ п/п</th>
+        <th className='request__table-item'>
           Марка и модель транспортного средства
         </th>
-        <th className="request__table-item">
+        <th className='request__table-item'>
           Комплектация транспортного средства
         </th>
-        <th className="request__table-item">
+        <th className='request__table-item'>
           Государственный регистрационный номер транспортного средства
         </th>
-        <th className="request__table-item">
+        <th className='request__table-item'>
           Адрес подачи транспортного средства
         </th>
-        <th className="request__table-item">Время начала оказания услуг</th>
-        <th className="request__table-item">Время окончания окозания услуг</th>
-        <th className="request__table-item">Примечание</th>
+        <th className='request__table-item'>Время начала оказания услуг</th>
+        <th className='request__table-item'>Время окончания окозания услуг</th>
+        <th className='request__table-item'>Примечание</th>
       </tr>
 
-      <tr className="profile__table-items">
-        <th className="profile__table-item">1</th>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+      <tr className='profile__table-items'>
+        <th className='profile__table-item'>1</th>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
         </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
-        </td>
-      </tr>
-
-      <tr className="profile__table-items">
-        <th className="profile__table-item">2</th>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
-        </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
-        </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
-        </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
       </tr>
 
-      <tr className="profile__table-items">
-        <th className="profile__table-item">3</th>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+      <tr className='profile__table-items'>
+        <th className='profile__table-item'>2</th>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
         </td>
-        <td className="profile__table-item ">
-          <input className="input__time" type="time" />
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
         </td>
-        <td className="profile__table-item ">
-          <textarea name="" id="" rows="2"></textarea>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
+        </td>
+      </tr>
+
+      <tr className='profile__table-items'>
+        <th className='profile__table-item'>3</th>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
+        </td>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
+        </td>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
+        </td>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
+        </td>
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
+        </td>
+        <td className='profile__table-item '>
+          <input className='input__time' type='time' />
+        </td>
+        <td className='profile__table-item '>
+          <textarea name='' id='' rows='2'></textarea>
         </td>
       </tr>
     </table>
 
-    <button autofocus class="profile__btn">
+    <button autofocus class='profile__btn' onClick={showConfirmation}>
       Отправить
     </button>
   </>

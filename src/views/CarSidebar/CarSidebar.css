@@ -1,0 +1,15 @@
+.sidebar__services {
+  display: flex;
+}
+
+.sidebar__items-services {
+  margin: 15px 5px;
+  padding: 0;
+  width: 210px;
+  height: max-content;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  top: 220px;
+  position: fixed;
+}

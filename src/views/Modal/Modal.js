@@ -70,7 +70,7 @@ const Modal = ({
           >
             Войти
           </button>
-          <p className='modal__registration-link' onClick={toggleIsRegistration}>Создать аккаунт</p>
+          {/* <p className='modal__registration-link' onClick={toggleIsRegistration}>Создать аккаунт</p> */}
         </div>
       </div>
     </div>

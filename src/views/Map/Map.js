@@ -8,7 +8,7 @@ const Map = () => {
   useEffect(() => {
     const script = document.createElement('script');
   
-    script.src = "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acff40df89b07007da32d2c44e63ff892dee23acc84ff77ad06f7aee3c58b8a4d&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false";
+    script.src = "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad81d4b011147dfa44b395ce09036aebd791e5ec4c5a32a7fa1d800ce4f10e891&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false";
     script.async = true;
     script.type = 'text/javascript';
     script.charset = 'utf-8';

@@ -11,22 +11,22 @@ const Footer = () => {
       <div className='container'>
         <div className='footer__items'>
           <div className='logo'>
-            <a href='index.html' className='header__left'>
-              <p>UNIVERSALTRANSTRADE</p>
-            </a>
+          <Link to='/'>
+              <div className='header__left'>UNIVERSALTRANSTRADE</div>
+            </Link>
           </div>
           <div className='footer__contacts'>
             <div className='footer__contacts-info'>
-              <p className='footer__contacts-info__phone'>+7 (495) 999 99 99</p>
+              <p className='footer__contacts-info__phone'>+7 (499) 403-19-19</p>
               <p className='footer__contacts-info__address'>
-                г.Москва, Перовский проезд, д.54
+              г. Москва, пер. Тетеринский, дом 4, стр. 2, пом. 34 
               </p>
             </div>
           </div>
           <div className='footer__menu'>
             <nav className='menu__items'>
               <AnchorLink href='#header' className='menu__item-link__footer'>
-                <Link to='/'>Главная</Link>
+                <Link to='/'>Главная Страница</Link>
               </AnchorLink>
             </nav>
           </div>

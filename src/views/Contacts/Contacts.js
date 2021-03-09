@@ -11,12 +11,12 @@ const contact = [
   {
     image: img1,
     title: 'Адрес :',
-    text: 'г.Москва, Перовский проезд, д.54',
+    text: 'г. Москва, пер. Тетеринский, дом 4, стр. 2, пом. 34 ',
   },
   {
     image: img2,
     title: 'Телефон :',
-    text: '+7 (495) 999 99 99',
+    text: '+7 (499) 403-19-19',
   },
   {
     image: img3,
@@ -26,7 +26,7 @@ const contact = [
   {
     image: img4,
     title: 'E-mail :',
-    text: 'universaltranstrade@gmail.com',
+    text: 'utt2003@yandex.ru',
   },
 ];
 

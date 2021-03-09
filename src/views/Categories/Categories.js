@@ -14,26 +14,31 @@ const categories = [
     image: img1,
     text: "Эконом Класс",
     link: "детали",
+    to: '/car-park/economy-class',
   },
   {
     image: img2,
-    text: "Средний Класс",
+    text: "Бизнес Класс",
     link: "детали",
+    to: '/car-park/business-class',
   },
   {
     image: img3,
     text: "Премиум Класс",
     link: "детали",
+    to: '/car-park/premium-class',
   },
   {
     image: img4,
     text: "Кроссоверы",
     link: "детали",
+    to: '/car-park/crossovers',
   },
   {
     image: img5,
     text: "Микроавтобусы",
     link: "детали",
+    to: '/car-park/minibuses',
   },
 ];
 
@@ -47,6 +52,7 @@ const Categories = () => (
             image={categorie.image}
             text={categorie.text}
             link={categorie.link}
+            to={categorie.to}
             key={index}
           />
         ))}

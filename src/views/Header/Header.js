@@ -20,10 +20,10 @@ const Header = ({ onClick }) => {
           </div>
           <div className='header__right'>
             <div className='contact'>
-              <p className='contact'>+7 (495) 999 99 99 </p>
+              <p className='contact'>+7 (499) 403-19-19 </p>
             </div>
             <div className='contact'>
-              <p>г.Москва, Перовский пр-д, д.54</p>
+              <p>г. Москва,Тетеринский  пер., 4/2, пом. 34</p>
             </div>
             {user ? (
               <Link to='/account/user'>
